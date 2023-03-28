@@ -1,0 +1,7 @@
+<launch>
+
+    <node pkg="get_cam_info" type="get_cam_info" name="get_cam_info" output="screen">
+        <rosparam command="load" file="$(find get_cam_info)/config/default.yaml" />
+    </node>
+
+</launch>
